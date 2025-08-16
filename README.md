@@ -1,2 +1,4 @@
-# csd-340
-for class csd-340
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+* Alexis Mitchell
+* Professor Sue Sampson
