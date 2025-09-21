@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSD 340 Development with HTML and CSS</title>
+
+    <meta name="description" content="CSD 340 Development with HTML and CSS" />
+    <meta http-equiv="author" content="Alexis Mitchell" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="keywords" content="HTML, CSS, CSD 340 Development" />
+
+    <script>
+        var firstVariableValue = "reaping";
+        var secondVariableValue = "consideration";
+        var thirdVariableValue = "special";
+        var fourthVariableValue = "here";
+    </script>
+</head>
+
+<body>
+    <div id="container">
+
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+        <h2>Passages from the Hunger Games Book</h2>
+        <p>"When I wake up, the other side of the bed is cold. My fingers stretch out, seeking Prim's warmth but finding only the rough canvas of
+            the mattress. She must have had bad dreams and climbed in with our mother. Of course she did. This is the day of the <span id="reaping">____</span>." (page 3)</p> 
+        </p>
+        <p> "Suddenly I am furious, that with my life on the line, they don't even have the decency to pay attention to me. That I'm being upstaged by a dead pig. My heart starts to pound, I can feel my face burning.
+            Without thinking, I pull an arrow from my quiver and send it straight at the Gamemakers' table. I hear shouts of alarm as people stumbled back. the arrow skewers the apple in the pig's mouth and pins it to the wall behind it.
+            Everyone stares at me in disbelief. 
+            "Thank you for your <span id="consideration">____</span>," I say. Then I give a slight bow and walk straight toward the exit without being dismissed."" (page 101-102)
+        </p>
+        <p>""Handsome lad like you. There must be some <span id="special">____</span> girl. Come on, what's her name?" Says Caesar.
+            "Peeta sighs. "Well, there is this one girl. I've had a crush on her every since I can remember. But I'm pretty sure she didn't know I was alive until the reaping." 
+            Sounds of sympathy from the crowd. Unrequited love they can relate to.
+            "She have another fellow?" asks Caesar.
+            "I don't know, but a lot of boys like her," says Peeta.
+            "So, here's what you do. You win, you go home. She can't turn you down then, eh?" says Caesar encouragingly.
+            "I don't think it's going to work out. Winning...won't help in my case," says Peeta.
+            "Why ever not?" says Caesar, mystified.
+            Peeta blushes beet red and stammers out. "Because...because...she came <span id="here">____</span> with me."" (page 130)
+        </p>
+        <p>
+            <button type="button" 
+                onclick="document.getElementById('reaping').innerHTML=firstVariableValue;">reaping</button>
+            <button type="button"
+                onclick="document.getElementById('consideration').innerHTML=secondVariableValue;">consideration</button>
+            <button type="button" 
+                onclick="document.getElementById('special').innerHTML=thirdVariableValue;">special</button>
+            <button type="button" 
+                onclick="document.getElementById('here').innerHTML=fourthVariableValue;">here</button>
+            <br />
+        </p>
+    </div>
+</body>
+</html> 
