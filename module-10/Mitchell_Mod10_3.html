@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Author" content="Alexis Mitchell">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <style>
+        #puppy {
+            width: 300px;
+            height: auto;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+
+    <button onclick="OnClickFunction()">Click Me!</button>
+    <p id="demo"></p>
+
+    <img id="puppy" src="puppy_2.jpg" alt="blurry puppy" style="display:none;" 
+         onmouseover="this.src='puppy_1.jpg'" 
+         onmouseout="this.src='puppy_2.jpg'">
+
+    <script>
+        function OnClickFunction() {
+            document.getElementById("demo").innerHTML = "You Found A Furry Friend! 🐶";
+            document.getElementById("demo").innerHTML += "<br>Hover over the image to unblur the puppy!";
+            document.getElementById("puppy").style.display = "block"; 
+        }
+    </script>
+    </center>
+</body>
+</html>
